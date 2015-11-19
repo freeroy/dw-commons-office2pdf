@@ -11,9 +11,9 @@ import org.junit.Test;
 
 public class PdfConvertorTest {
 	
-	JobConvertor convertor;
+	private JobConvertor convertor;
 	
-	@Before
+	//@Before
 	public void before(){
 		convertor=new JobConvertor().setOfficeHome("D:\\Program Files (x86)\\OpenOffice 4");
 		convertor.startService();

@@ -10,7 +10,7 @@ import org.junit.Test;
 
 public class PdfConvertorTest {
 
-	@Test
+	//@Test
 	public void testConver2Pdf() {
 		testWord2Pdf();
 		testExcel2Pdf();
