@@ -13,7 +13,7 @@ public class PdfConvertorTest {
 	
 	private JobConvertor convertor;
 	
-	//@Before
+	@Before
 	public void before(){
 		convertor=new JobConvertor().setOfficeHome("D:\\Program Files (x86)\\OpenOffice 4");
 		convertor.startService();
@@ -25,7 +25,7 @@ public class PdfConvertorTest {
 		convertor=null;
 	}
 	
-	@Test
+	//@Test
 	public void testConver2Pdf() {
 		testWord2Pdf();
 		testExcel2Pdf();
