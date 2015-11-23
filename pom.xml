@@ -11,7 +11,7 @@
 	<artifactId>dw-commons-office2pdf</artifactId>
 	<packaging>jar</packaging>
 	<name>dw-commons-office2pdf</name>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<description>office文档转换pdf文档工具包</description>
 	
 	<properties>
