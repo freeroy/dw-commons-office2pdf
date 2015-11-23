@@ -5,7 +5,8 @@
 
 2、jacob模式注意事项
 1）需要在window操作系统中，安装office软件，实测office2007~office2013版本是通过的
-2）需要把dll文件夹中的jacob-*.*-x*.dll文件，放置在java jdk安装目录下的jre/bin目录里面，dll有操作系统位数区分
+2）需要下载对应的jacob dll文件，放置在java jdk安装目录下的jre/bin目录里面，dll有操作系统位数区分
+3）dll下载地址：http://danadler.com/jacob/
 
 3、jod模式注意事项
 1）需要在操作系统中，安装openoffice软件
